@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.registerBox{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 320px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+}
+h1{
+    padding: 0;
+    margin: -44px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.registerBox p{
+    padding: 0;
+    text-align: left;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.registerBox input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.registerBox a{
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    padding:  10px 120px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.registerBox a:hover{
+    color: black;
+    background-color: yellow;
+}
